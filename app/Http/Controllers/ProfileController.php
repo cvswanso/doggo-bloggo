@@ -57,6 +57,13 @@ class ProfileController extends Controller
             'users.name AS user',
         ]);
 
+        $user = DB::table('users')
+        ->where('id', '=', $id)
+        ->get([
+            'name',
+            'id'
+        ])->first();
+
         if (Auth::user())
         {
             foreach ($posts as $post)
@@ -78,7 +85,7 @@ class ProfileController extends Controller
         }
 
         return view('profile.index', [
-            'user' => Auth::user(),
+            'user' => $user,
             'posts' => $posts,
             'id' => $id,
         ]);

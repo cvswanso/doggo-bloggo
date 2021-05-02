@@ -8,7 +8,7 @@
     <div class="img-wrapper post-img">
         <img src="{{ asset('img/home-pic.jpg') }}">
     </div>
-    @if ($user->id == Auth::user()->id)
+    @if (Auth::user() != null && $user->id == Auth::user()->id)
     <div class="row posts">
         <p class="light-text">Welcome to your profile.</p>
     </div>
@@ -44,7 +44,7 @@
                 </div>
             </div>
         @empty 
-            @if ($user->id == Auth::user()->id)
+            @if (Auth::user() != null && $user->id == Auth::user()->id)
                 <div class="row posts">
                     <p class="light-text">You haven't posted anything yet! Click <a href="{{ route('post.create')}}">here</a> to get started.</p>
                 </div>
@@ -61,7 +61,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-@if ($user->id == Auth::user()->id)
+@if (Auth::user() != null && $user->id == Auth::user()->id)
     <script>
         $(".nav-item").removeClass("active");
         $(".profile").addClass("active");
