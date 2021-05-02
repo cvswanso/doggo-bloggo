@@ -1,0 +1,80 @@
+body {
+    background-color: #293241;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+
+#app-name {
+  font-family: 'Orelega One', cursive;
+  font-size: 25px;
+  color: #EE6C4D;
+}
+
+.dark-color {
+  background-color: #3D5A80;
+}
+
+.accent-color {
+  color: #EE6C4D;
+}
+
+#logout-button {
+  text-decoration: none;
+  color: #a4adbf;
+}
+
+#logout-button:active {
+  color: white;
+}
+
+#logout-button:hover {
+  color: #d1d6df;
+}
+
+.light-text {
+  color: #E0FBFC;
+}
+
+.btn-accent {
+  background-color: #EE6C4D;
+  color: black;
+}
+
+a {
+  color: #EE6C4D;
+}
+
+a:hover {
+  color: #c75e44;
+  text-decoration: none;
+}
+
+.btn-accent:hover {
+  background-color: #EE6C4D;
+  color: black;
+}
+
+button, input[type="submit"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.error {
+  margin-bottom: 0px;
+}
+
+.white-text {
+  background-color: #3D5A80;
+  color: white;
+  padding: 5px;
+}
+
+form {
+  width: 100%;
+}

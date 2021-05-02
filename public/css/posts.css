@@ -1,0 +1,137 @@
+#post-background
+{
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  height: auto;
+  min-height: 700px;
+}
+
+.posts {
+    width: 100%;
+    margin: auto;
+}
+.post {
+    background-color: #98C1D9;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
+h5 {
+    color: #3D5A80;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: -30%;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.post-img {
+    margin-bottom: 15px;
+}
+
+.col-12 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media(min-width: 0px) {
+    img {
+        margin-top: -23%;
+        transform: scale(2);
+    }
+}
+
+@media(min-width: 576px) {
+    img {
+        margin-top: -29%;
+        transform: scale(1.5);
+    }
+}
+
+@media(min-width: 768px) {
+    img {
+        margin-top: -32%;
+        transform: scale(1.2);
+    }
+}
+
+@media(min-width: 992px) {
+    img {
+        margin-top: -33%;
+        transform: scale(1);
+    }
+}
+
+@media(min-width: 1200px) {
+    img {
+        margin-top: -35%;
+        transform: scale(1);
+    }
+}
+
+.x-margin {
+    margin-bottom: 15px;
+}
+
+.post-name {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul {
+    width: 100%;
+}
+
+main {
+    padding-left: 0px;
+    margin-left: 0px;
+} 
+
+.post-content {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.dark-text {
+    color: black;
+}
+
+#delete-button {
+    margin-top: 15px;
+}
+
+#post-author {
+    color: #3D5A80;
+    font-weight: bold;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.no-margin {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
