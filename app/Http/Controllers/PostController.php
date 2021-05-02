@@ -57,7 +57,7 @@ class PostController extends Controller
 
         $allposts = DB::table('posts')
         ->join('users', 'users.id', '=', 'posts.user_id')
-        ->where('posts.name', 'LIKE', '%'.$name.'%')
+        ->where('posts.name', 'ilike', '%'.$name.'%')
         ->get([
             'posts.id',
             'posts.name',

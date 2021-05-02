@@ -3,7 +3,7 @@
 @section('title', 'Register')
 
 @section('content')
-    <p class="light-text">Already have an account? Please <a href="{{ route('auth.loginForm') }}">login</a>.</p>
+    <p class="light-text">Already have an account? Please <a href="{{ route('login') }}">login</a>.</p>
     @if ($errors->any())
         <div class="alert alert-danger">
             <p class="error">Please correct the following errors prior to registration:</p>

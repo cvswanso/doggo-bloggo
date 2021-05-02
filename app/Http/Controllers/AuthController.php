@@ -26,7 +26,7 @@ class AuthController extends Controller
             return redirect()->route('profile.index');
         }
         else {
-            return redirect()->route('auth.loginForm')->with('error', 'Invalid username or password.');
+            return redirect()->route('login')->with('error', 'Invalid username or password.');
         }
     }
 }
