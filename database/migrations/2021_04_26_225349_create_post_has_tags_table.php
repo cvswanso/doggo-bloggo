@@ -18,6 +18,11 @@ class CreatePostHasTagsTable extends Migration
             $table->integer('tag_id');
             $table->timestamps();
         });
+
+        Schema::table('post_has_tags', function (Blueprint $table) {
+            $table->foreign('tag_id')->references('id')->on('tags');
+            $table->foreign('post_id')->references('id')->on('posts');
+        });
     }
 
     /**

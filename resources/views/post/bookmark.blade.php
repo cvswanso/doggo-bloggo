@@ -33,7 +33,7 @@
                     <i> Bookmarked on {{ $post->timebookmarked->format('n/j/Y') }} at
                         {{ $post->timebookmarked->format('g:i A') }}. </i>
                         <br>
-                    <p> {{ $post->content }} </p>
+                        <p class="post-content"> {{ $post->content }} </p>
                     <a href="{{ route('post.show', ['id' => $post->id]) }}" class="btn btn-accent">Read More</a>
                 </div>
             </div>
