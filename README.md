@@ -1,6 +1,6 @@
 ## Links
 
-- [Application](https://doggo-bloggo.herokuapp.com/)
+- [Visit the Website](https://doggo-bloggo.herokuapp.com/)
 - [Video Walkthrough](https://usc.zoom.us/rec/share/R4_fCEzWbaokqDjkIXBNwigXJSEcs_q8DxOpf7rYQKvV6_7vbsCFe16tElwRmKmp.B8AdYlcK-JwSD_He?startTime=1620002467000)
 
 ## About The Doggo Bloggo
